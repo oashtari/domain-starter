@@ -15,7 +15,7 @@ const OMID = 'omid';
 
 // Add the domain you will be minting
 const tld = '.gunner';
-const CONTRACT_ADDRESS = '0x4ddCC515Dda349aecBE30Ff6f9bD8bd17732AF92';
+const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 
 const App = () => {
 
